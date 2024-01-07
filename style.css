@@ -1,9 +1,144 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap");
 
-*{
-    margin:0; padding:0; box-sizing:border-box;
-    font-family: "Open Sans", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Section--1 */
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/resources/Banner\ Image.png);
+
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+}
+.banner h3,
+h1 {
+  color: white;
+  text-align: center;
+}
+.banner h3 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 180px;
+}
+
+.banner h1 {
+  font-size: 72px;
+  font-weight: 900;
+  -webkit-text-stroke: 0.8px;
+  -webkit-text-stroke-color:rgb(237, 8, 8);
+}
+
+/* Section--2 */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2 .offer {
+  color: red;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.section2 h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.section2 h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.section2 img {
+  width: 802.9px;
+  height: 500px;
 }
 
 
+/* Section--3 */
 
+
+.banner2 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 0.1)),url(/resources/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: 300px;
+  /* position: relative;
+  left: 300px;
+  top: 100px; */
+}
+
+.banner2 h2 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.banner2 p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.banner2 button {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.banner2 h2, p, button {
+  color: white;
+  margin: 25px 70px;
+  position: relative;
+  left: 50px;
+  top: 120px;
+}
+.rightside {
+  width: 320px;
+  height: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px;
+}
+
+
+/* Section--4 */
+
+.section4{
+    width: 1320px;
+    height: 485px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    
+
+}
