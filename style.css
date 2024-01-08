@@ -22,23 +22,24 @@
   width: 1320px;
   height: 600px;
   margin-top: 50px;
+  border-radius: 15px;
 }
-.banner h3,
-h1 {
+.banner .happy,
+.year {
   color: white;
   text-align: center;
 }
-.banner h3 {
+.banner .happy {
   font-size: 32px;
   font-weight: 400;
   margin-top: 180px;
 }
 
-.banner h1 {
+.banner .year {
   font-size: 72px;
   font-weight: 900;
   -webkit-text-stroke: 0.8px;
-  -webkit-text-stroke-color:rgb(237, 8, 8);
+  -webkit-text-stroke-color: rgb(237, 8, 8);
 }
 
 /* Section--2 */
@@ -56,7 +57,7 @@ h1 {
   margin-top: 100px;
 }
 
-.section2 h4 {
+.section2 .our {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -65,42 +66,45 @@ h1 {
   margin-bottom: 20px;
 }
 
-.section2 h2 {
+.section2 .all {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  margin-bottom: 50px;
 }
 .section2 img {
   width: 802.9px;
   height: 500px;
+  padding-bottom: 50px;
 }
-
 
 /* Section--3 */
 
-
 .banner2 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 0.1)),url(/resources/Vectorrr.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(/resources/Vectorrr.png);
   width: 1320px;
   height: 600px;
   display: flex;
   justify-content: space-around;
-  margin: 300px;
-  /* position: relative;
+  margin-top: 50px;
+  position: relative;
   left: 300px;
-  top: 100px; */
+  border-radius: 15px;
 }
 
-.banner2 h2 {
+.banner2 .wel {
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
   letter-spacing: 5px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.banner2 p {
+.banner2 .these {
   font-size: 16px;
   font-weight: 100;
   line-height: 30px;
@@ -116,7 +120,9 @@ h1 {
   cursor: pointer;
 }
 
-.banner2 h2, p, button {
+.banner2 .wel,
+.these,
+button {
   color: white;
   margin: 25px 70px;
   position: relative;
@@ -132,13 +138,178 @@ h1 {
   margin: 65px;
 }
 
-
 /* Section--4 */
 
-.section4{
-    width: 1320px;
-    height: 485px;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    
+.section4 {
+  width: 1320px;
+  height: 485px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  left: 300px;
+  border-radius: 15px;
+}
+.section4 .pdt {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.btn2 {
+  width: 165px;
+  height: 55px;
+  padding: 16px 32px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
 
+/* Section--5  Bonus */
+
+.section5 {
+  display: flex;
+  margin: 100px 300px;
+  margin-top: 100px;
+}
+
+.col1 .new {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.col1 .comingsoon {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.col1 .the {
+  width: 400px;
+  height: 130px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(42, 42, 42);
+  margin-top: 60px;
+}
+
+.col2{margin-left: 40px;}
+
+.col3 {
+  text-align: start;
+  padding: 50px;
+  margin-left: 75px;
+}
+
+.col3 .years {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.col3 .the {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(42, 42, 42);
+  margin-top: 10px;
+}
+
+.col2 img {
+  border-radius: 50%;
+  padding: 25px;
+  border: 15px solid red;
+}
+
+.col3 img{
+    margin-top: 20px;
+}
+
+
+
+/* Section--6 */
+
+
+
+.sectoin6{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text .what{font-size:24px;  font-weight: 500;}
+
+.text .holi {
+    font-size: 72px;
+   font-weight: 900;
+   margin-top: 20px;
+}
+
+.text .use{
+    text-align: center;
+    font-size: 20px;
+   font-weight: 300;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+ .girl{
+    float: right;
+    position: relative;
+    right: 300px;
+}
+
+.sectoin6 .downimg{
+    background-image: url(/resources/Rectangle\ 2.png);
+    width: 1320px;
+    height: 230px;
+    position: relative;
+    top:120px;
+    left: 283px;
+}
+
+.downimg img{
+    height: 500px;
+    position: relative;
+    top: -300px;
+    left: 100px;
+}
+
+.image .discount{
+    position: relative;
+    top: 80px;
+    left: 1000px;
+}
+
+
+
+
+
+/* Section--7 */
+
+.headeline{
+    
 }
