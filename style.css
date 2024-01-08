@@ -97,7 +97,7 @@
       rgba(0, 0, 0, 0.9),
       rgba(0, 0, 0, 0.1)
     ),
-    url(/resources/Vectorrr.png);
+    url(resources/Vectorrr.png);
   width: 1320px;
   height: 600px;
   display: flex;
@@ -315,7 +315,7 @@ button {
 }
 
 .sectoin6 .downimg {
-  background-image: url(/resources/Rectangle\ 2.png);
+  background-image: url(resources/Rectangle\ 2.png);
   width: 1320px;
   height: 230px;
   position: relative;
